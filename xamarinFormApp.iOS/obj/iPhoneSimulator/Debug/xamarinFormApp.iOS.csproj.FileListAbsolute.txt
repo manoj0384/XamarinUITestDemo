@@ -58,3 +58,9 @@
 /Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_PartialAppManifest.items
 /Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_BundleResourceWithLogicalName.items
 /Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.iOS.Bindings.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.Analytics.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.Crashes.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
