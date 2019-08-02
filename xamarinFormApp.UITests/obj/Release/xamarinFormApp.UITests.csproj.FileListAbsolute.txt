@@ -1,0 +1,8 @@
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/bin/Release/xamarinFormApp.UITests.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/bin/Release/nunit.framework.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/bin/Release/nunit.framework.pdb
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/bin/Release/Xamarin.UITest.dll
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/obj/Release/xamarinFormApp.UITests.csprojAssemblyReference.cache
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/obj/Release/xamarinFormApp.UITests.csproj.CoreCompileInputs.cache
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/obj/Release/xamarinFormApp.UITests.csproj.CopyComplete
+/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/obj/Release/xamarinFormApp.UITests.dll

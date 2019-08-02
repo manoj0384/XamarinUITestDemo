@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/xamarinFormApp.UITests.csproj": {}
+  },
+  "projects": {
+    "/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/xamarinFormApp.UITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/xamarinFormApp.UITests.csproj",
+        "projectName": "xamarinFormApp.UITests",
+        "projectPath": "/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/xamarinFormApp.UITests.csproj",
+        "packagesPath": "/Users/manojd/.nuget/packages/",
+        "outputPath": "/Users/manojd/Projects/xamarinFormApp/xamarinFormApp.UITests/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/manojd/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "/Users/manojd/spinsport.client/SpinSport.Client/Output/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
