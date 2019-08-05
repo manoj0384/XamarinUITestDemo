@@ -1,7 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="xamarinFormApp.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid  Padding="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="LblNum1" Text="Num1:" Grid.Row="0" AutomationId="LblNum1" Grid.Column="0"/>
+        <Entry x:Name="EntNum1" Text="Enter number 1" AutomationId="Num1" Grid.Row="0" Grid.Column="1"/>
+        <Label x:Name="LblNum2" Text="Num2:" AutomationId="LblNum2" Grid.Row="1" Grid.Column="0"/>
+        <Entry x:Name="EntNum2" Text="Enter number 2" AutomationId="Num2" Grid.Row="1" Grid.Column="1"/>
+        <Label x:Name="LblResult" Text="Result is:" AutomationId="LblResult" Grid.Row="2" Grid.Column="0"/>
+        <Label x:Name="Result" AutomationId="Result" Grid.Row="2" Grid.Column="1"/>
+
+        <Button x:Name="BtnAdd" Text="Addition" AutomationId="BtnAdd" Grid.Row="3" Grid.Column="0" Clicked="BtnAdd_Clicked"/>
+        <Button x:Name="BtnSub" Text="Substraction" AutomationId="BtnSub" Grid.Row="3" Grid.Column="1" Clicked="BtnSub_Clicked"/>
+        <Button x:Name="BtnMul" Text="Multiply" AutomationId="BtnMul" Grid.Row="4" Grid.Column="0" Clicked="BtnMul_Clicked"/>
+        <Button x:Name="BtnDiv" Text="Division" AutomationId="BtnDiv" Grid.Row="4" Grid.Column="1" Clicked="BtnDiv_Clicked"/>
+        <Button x:Name="BtnRem" Text="Remainder" AutomationId="BtnRem" Grid.Row="5" Grid.Column="0" Clicked="BtnRem_Clicked"/>
+        <Button x:Name="BtnClr" Text="Clear" AutomationId="BtnClr" Grid.Row="5" Grid.Column="1" Clicked="BtnClr_Clicked"/>
+    </Grid>
 </ContentPage>

@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace xamarinFormApp
@@ -16,6 +12,48 @@ namespace xamarinFormApp
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void BtnAdd_Clicked(object sender, EventArgs e)
+        {
+            double a = double.Parse(EntNum1.Text);
+            double b = double.Parse(EntNum2.Text);
+            Result.Text = (a + b).ToString();
+        }
+
+        private void BtnSub_Clicked(object sender, EventArgs e)
+        {
+            double a = double.Parse(EntNum1.Text);
+            double b = double.Parse(EntNum2.Text);
+            Result.Text = (a - b).ToString();
+        }
+
+        private void BtnMul_Clicked(object sender, EventArgs e)
+        {
+            double a = double.Parse(EntNum1.Text);
+            double b = double.Parse(EntNum2.Text);
+            Result.Text = (a * b).ToString();
+        }
+
+        private void BtnDiv_Clicked(object sender, EventArgs e)
+        {
+            double a = double.Parse(EntNum1.Text);
+            double b = double.Parse(EntNum2.Text);
+            Result.Text = (a / b).ToString();
+        }
+
+        private void BtnRem_Clicked(object sender, EventArgs e)
+        {
+            double a = double.Parse(EntNum1.Text);
+            double b = double.Parse(EntNum2.Text);
+            Result.Text = (a % b).ToString();
+        }
+
+        private void BtnClr_Clicked(object sender, EventArgs e)
+        {
+            EntNum1.Text = string.Empty;
+            EntNum2.Text = string.Empty;
+            Result.Text = string.Empty;
         }
     }
 }
